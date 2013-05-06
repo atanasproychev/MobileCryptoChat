@@ -1,0 +1,17 @@
+var getmes;
+var service_url = "http://mobilecryptochat.apphb.com/MobileCryptoChatService.svc";
+var chatStatus = "Invalid";
+var defaultUserPhoto = "./Images/Android.png";
+var rand = 0;
+var recipientMSISDN;
+var msisdn;
+var sessionId;
+var contacts = new Array();
+var usersEverBeenOnline = new Array();
+var chats = new Array();
+var chatSecret;
+var chatWith = new Object();
+var latitudeMy = "42.123456", longitudeMy = "21.245659";
+var latitudeOther, longitudeOther;
+var firstMy = true, firstOther = true;
+var tempSecret;

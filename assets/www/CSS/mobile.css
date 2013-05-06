@@ -1,0 +1,106 @@
+.my
+{
+	border-radius: 1em;
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#4f94e2), to(#b7cce4), color-stop(1,#FFF));
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4f94e2', endColorstr='#b7cce4');/*for IE*/
+	margin-left: 2%;
+	margin-right: 60%;
+	padding: 5%;
+	box-shadow: 5px 5px 9px;
+	color: rgb(0, 0, 0);
+	text-align: center;
+	opacity: 0.8;
+	text-shadow: 1px 1px 10px;
+	text-wrap: unrestricted;
+	font-weight: 700;
+	word-wrap: break-word;
+}
+
+.other
+{
+	border-radius: 1em;
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#bababa), to(#e4e4e4), color-stop(1,#FFF));
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4f94e2', endColorstr='#b7cce4');/*for IE*/	
+	margin-left: 55%;
+	margin-right: 5%;
+	padding: 5%;
+	box-shadow: 5px 5px 9px;
+	color: rgb(0, 0, 0);
+	text-align: center;
+	opacity: 0.8;
+	text-shadow: 1px 1px 10px;
+	text-wrap: unrestricted;
+	font-weight: 700;
+	word-wrap: break-word;
+}
+
+.fixed
+{
+	position: fixed
+}
+
+.fullscr
+{
+	height: 100%;
+	width: 100%;
+}
+
+.more
+{
+	position: fixed;
+	width: 30px;
+	height: 60px;
+	left: 95%;
+	top: 45%;
+}
+
+.more#backMore
+{
+	position: fixed;
+	width: 30px;
+	height: 60px;
+	left: 25.6%;
+	top: 45%;
+}
+
+.ui-dialog.moreInfo .ui-dialog-contain 
+{
+	margin-right: -25%;
+	margin-top: 20%;
+}
+
+.ui-dialog.menu .ui-dialog-contain 
+{
+	margin-bottom: 0;
+}
+
+#SendBtn
+{
+	left: 86.5%;
+	top: -10%;
+}
+
+#message
+{
+	bottom: 0%;
+	position: fixed;
+	width: 85.5%;
+}
+
+.background
+{
+	background: url(../Images/Background.jpg) no-repeat fixed;
+	background-size: 105% 105%;
+}
+
+.login
+{
+	padding-top: 40%;
+	padding-bottom: 40%;
+}
+
+#refresh
+{
+	right: 27%;
+	top: 1%;
+}
